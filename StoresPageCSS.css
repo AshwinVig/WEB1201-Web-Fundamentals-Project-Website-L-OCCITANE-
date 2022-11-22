@@ -1,0 +1,474 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 200vh;
+}
+.brand-heading
+{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-bottom-color: #ffcc04;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.first-part
+{
+    font-family: Garamond, serif;
+    font-size: 38px;
+    display: inline;
+    font-weight: normal;
+}
+.second-part
+{
+    font-family: Garamond, serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: normal;
+}
+.subtitle1
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.subtitle2
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline;
+}
+.logout
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Garamond, sans-serif;
+}
+.logout a
+{
+    text-decoration: none;
+}
+.logout p
+{
+    padding: 12px;
+    color: black;
+    border-radius: 20px;
+    background:#ffde59;
+    font-family: Garamond, sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.logout p:hover
+{
+    cursor: pointer;
+    background:#ffe683;
+    color: rgb(22, 22, 22);
+}
+.navigation-bar
+{
+    background: white;
+    text-align: center;
+}
+.navigation-bar ul
+{
+    color: black;
+    display: inline-flex;
+    list-style: none;
+    font-family: Garamond, sans-serif;
+    letter-spacing: 1px;
+}
+.navigation-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.navigation-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.current, .navigation-bar ul li:hover
+{
+    background-color: #ffde59;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.drop-down-menu-1
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.drop-down-menu-2
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.search-bar
+{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+input
+{
+    border: 1px solid rgb(218, 216, 216);
+    padding: 15px;
+    width: 400px;
+    background: whitesmoke;
+    outline: none;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label
+{
+    position: relative;
+}
+button
+{
+    border: 2px solid #f7d652c4;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffdd57;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover
+{
+    font-weight: bold;
+    background: #fcd742;
+    border: 2px solid #fed636c4;
+    cursor: pointer;
+}
+.heading-title
+{
+    margin-top: 40px;
+    padding: 30px 13px;
+    background: rgb(255, 227, 86);
+    border-top: double 8px #ffcc04;
+    border-bottom: double 8px #ffcc04;
+}
+
+.heading-title h1
+{
+    color: black;
+    text-transform: capitalize;
+    font-size: 65px;
+    margin-bottom: 20px;
+    font-family: Garamond, serif;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 3px;
+    text-shadow: 3px 4px #d2b32a;
+}
+.video-box
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+}
+embed
+{
+    border-radius: 30px;
+    border: solid 5px #fcde69;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .first-part
+    {
+        font-family: Garamond, serif;
+        font-size: 80px;
+        display: inline;
+        font-weight: normal;
+    }
+    .second-part
+    {
+        font-family: Garamond, serif;
+        font-size: 87px;
+        display: inline;
+        font-weight: normal;
+    }
+    .subtitle1
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+    .subtitle2
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        display: inline;
+    }
+    .logout
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 25px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-family: Garamond, sans-serif;
+    }
+    .logout a
+    {
+        text-decoration: none;
+    }
+    .logout p
+    {
+        padding: 12px;
+        color: black;
+        border-radius: 20px;
+        background:#ffde59;
+        font-family: Garamond, sans-serif;
+        outline: none;
+        border: none;
+        font-weight: bold;
+    }
+    .logout p:hover
+    {
+        cursor: pointer;
+        background:#ffe683;
+        color: rgb(22, 22, 22);
+    }
+    .navigation-bar
+    {
+        background: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .navigation-bar ul
+    {
+        color: black;
+        display: inline-flex;
+        list-style: none;
+        font-family: Garamond, sans-serif;
+        letter-spacing: 1px;
+    }
+    .navigation-bar ul li
+    {
+        width: 120px;
+        margin: 10px;
+        padding: 15px;
+        padding-bottom: 0px;
+        font-size: 25px;
+    }
+    .navigation-bar ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .current, .navigation-bar ul li:hover
+    {
+        background-color: #ffde59;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .drop-down-menu-1
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    .drop-down-menu-2
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    .heading-title
+    {
+        margin-top: 40px;
+        padding: 30px 13px;
+        background: rgb(255, 227, 86);
+        border-top: double 8px #ffcc04;
+        border-bottom: double 8px #ffcc04;
+    }
+
+    .heading-title h1
+    {
+        color: black;
+        text-transform: capitalize;
+        font-size: 150px;
+        margin-bottom: 20px;
+        font-family: Garamond, serif;
+        font-weight: lighter;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        letter-spacing: 3px;
+        text-shadow: 3px 4px #d2b32a;
+    }
+    .search-bar
+    {
+        width: 100%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    input
+    {
+        border: 1px solid rgb(218, 216, 216);
+        padding: 15px;
+        width: 600px;
+        font-size: 40px;
+        background: whitesmoke;
+        outline: none;
+        border-radius: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    label
+    {
+        position: relative;
+    }
+    button
+    {
+        border: 2px solid #f7d652c4;
+        padding: 10px;
+        position: absolute;
+        font-size: 40px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background: #ffdd57;
+        border-radius: 30px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}

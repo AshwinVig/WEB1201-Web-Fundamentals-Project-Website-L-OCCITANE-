@@ -1,0 +1,315 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 110vh;
+}
+.brand-heading
+{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-bottom-color: #ffcc04;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.first-part
+{
+    font-family: Garamond, serif;
+    font-size: 38px;
+    display: inline;
+    font-weight: normal;
+}
+.second-part
+{
+    font-family: Garamond, serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: normal;
+}
+.subtitle1
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.subtitle2
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline;
+}
+.signup-banner
+{
+    height: 70vh;
+    width: 100%;
+    background: url("Signup_Banner.png") no-repeat;
+    background-size: cover;
+    display: block;
+}
+.banner-text
+{
+    padding-top: 70px;
+    padding-left: 80px;
+    color: black;
+    width: 30%;
+}
+.banner-text h1
+{
+    font-weight: lighter;
+    margin-bottom: 10px;
+    font-size: 60px;
+    letter-spacing: 4px;
+    font-family: Garamond, serif;
+    
+}
+.banner-text span
+{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: Arial, sans-serif;
+}
+.banner-text p
+{
+    font-family: Garamond, serif;
+    margin-bottom: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color:#f8e8ae;
+    border: 2px solid #f8e18e;
+    padding: 5px 10px;
+    width: 150%;
+}
+.banner-text .button
+{
+    padding: 10px 30px;
+    font-family: Garamond, serif;
+    background-color: #fcf1c9;
+    border: 1px solid #ffda53;
+    font-size: 18px;
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
+}
+.banner-text .button:hover
+{
+    background-color:#f8e190;
+    border: 2px solid #000;
+    color: black;
+}
+.banner-text a
+{
+    
+    text-decoration: none;
+    margin-right: 20px;
+}
+.signup
+{
+    width: 320px;
+    height: 420px;
+    transform: translate(-50%, 90%);
+    background: white;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 3px solid rgb(239, 237, 237);
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); 
+}
+.signup h1{
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-color: #ffcc04;
+}
+.details
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.signup input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup input[type = "text"]
+{
+    border: none;
+    border-bottom: 1px solid #f5d864;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.signup input[type = "password"]
+{
+    border: none;
+    border-bottom: 1px solid #f5d864;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.signup input[type = "submit"]
+{
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: none;
+    height: 40px;
+    background:#ffcc04;
+    color:white;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.signup input[type = "submit"]:hover
+{
+    cursor: pointer;
+    background:#fbd53e;
+    color: white;
+}
+.signup a
+{
+    text-decoration-color: darkgrey;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+@media only screen and (max-width: 990px)
+{
+    .signup-banner
+    {
+        height: 85vh;
+    }
+    .signup
+    {
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 947px)
+{
+    .signup-banner
+    {
+        height: 90vh;
+    }
+    .signup
+    {
+        margin-top: 55px;
+    }
+}
+@media only screen and (max-width: 715px)
+{
+    .signup-banner
+    {
+        height: 95vh;
+    }
+    .signup
+    {
+        margin-top: 65px;
+    }
+}
+@media only screen and (max-width: 644px)
+{
+    .signup-banner
+    {
+        height: 100vh;
+    }
+    .signup
+    {
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 522px)
+{
+    .signup
+    {
+        transform: translate(-40%, 90%);
+    }
+}
+@media only screen and (max-width: 489px)
+{
+    .signup
+    {
+        transform: translate(-35%, 90%);
+    }
+}
+@media only screen and (max-width: 440px)
+{
+    .signup
+    {
+        transform: translate(-30%, 90%);
+    }
+}
+@media only screen and (max-width: 375px)
+{
+    .signup
+    {
+        transform: translate(-20%, 90%);
+    }
+}
+@media only screen and (max-width: 321px)
+{
+    .signup
+    {
+        transform: translate(-15%, 90%);
+    }
+}
+@media only screen and (max-width: 313px)
+{
+    .signup
+    {
+        transform: translate(-10%, 90%);
+    }
+}
+@media only screen and (max-width: 257px)
+{
+    .signup
+    {
+        transform: translate(0%, 90%);
+    }
+}
+@media only screen and (max-width: 208px)
+{
+    .signup
+    {
+        transform: translate(5%, 90%);
+    }
+}

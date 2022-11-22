@@ -1,0 +1,542 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 200vh;
+}
+.brand-heading
+{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-bottom-color: #ffcc04;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.first-part
+{
+    font-family: Garamond, serif;
+    font-size: 38px;
+    display: inline;
+    font-weight: normal;
+}
+.second-part
+{
+    font-family: Garamond, serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: normal;
+}
+.subtitle1
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.subtitle2
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline;
+}
+.logout
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Garamond, sans-serif;
+}
+.logout a
+{
+    text-decoration: none;
+}
+.logout p
+{
+    padding: 12px;
+    color: black;
+    border-radius: 20px;
+    background:#ffde59;
+    font-family: Garamond, sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.logout p:hover
+{
+    cursor: pointer;
+    background:#ffe683;
+    color: rgb(22, 22, 22);
+}
+.navigation-bar
+{
+    background: white;
+    text-align: center;
+}
+.navigation-bar ul
+{
+    color: black;
+    display: inline-flex;
+    list-style: none;
+    font-family: Garamond, sans-serif;
+    letter-spacing: 1px;
+}
+.navigation-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.navigation-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.current, .navigation-bar ul li:hover
+{
+    background-color: #ffde59;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.drop-down-menu-1
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.drop-down-menu-2
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.about
+{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: white;
+}
+.about img
+{
+    height: 545px;
+    border-radius: 30px;
+    border: 10px solid #ffe064;
+}
+.about-content
+{
+    width: 550px;
+}
+.main
+{
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+span{
+    color: #ffcc04;
+}
+.about-content h5
+{
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    text-transform: capitalize;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.776);
+    font-family: Garamond, serif;
+}
+.about-content h1
+{
+    color: black;
+    text-transform: capitalize;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: Garamond, serif;
+    font-weight: lighter;
+}
+.about-content p
+{
+    letter-spacing: 1px;
+    color: black;
+    margin-bottom: 43px;
+    line-height: 29px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+button
+{
+    background: #ffd83b;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: black;
+    padding: 13px 30px;
+    font-weight: 200;
+    border-radius: 35px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover
+{
+    background: transparent;
+    border: 2px solid #ffcc04;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.sales-growth-table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+.sales-growth-table td, .sales-growth-table th
+{
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px 15px;
+}
+.sales-growth-table td
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sales-growth-table th
+{
+    background-color: #ffdb4a;
+    color: black;
+    font-family: Garamond, serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.darker-shading
+{
+    background: #f5f5f5;
+}
+.table-title h1
+{
+    margin-bottom: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Garamond, serif;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 990px)
+{
+    .about-content
+    {
+        width: 550px;
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .first-part
+    {
+        font-family: Garamond, serif;
+        font-size: 80px;
+        display: inline;
+        font-weight: normal;
+    }
+    .second-part
+    {
+        font-family: Garamond, serif;
+        font-size: 87px;
+        display: inline;
+        font-weight: normal;
+    }
+    .subtitle1
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+    .subtitle2
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        display: inline;
+    }
+    .logout
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 25px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-family: Garamond, sans-serif;
+    }
+    .logout a
+    {
+        text-decoration: none;
+    }
+    .logout p
+    {
+        padding: 12px;
+        color: black;
+        border-radius: 20px;
+        background:#ffde59;
+        font-family: Garamond, sans-serif;
+        outline: none;
+        border: none;
+        font-weight: bold;
+    }
+    .logout p:hover
+    {
+        cursor: pointer;
+        background:#ffe683;
+        color: rgb(22, 22, 22);
+    }
+    .navigation-bar
+    {
+        background: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .navigation-bar ul
+    {
+        color: black;
+        display: inline-flex;
+        list-style: none;
+        font-family: Garamond, sans-serif;
+        letter-spacing: 1px;
+    }
+    .navigation-bar ul li
+    {
+        width: 120px;
+        margin: 10px;
+        padding: 15px;
+        padding-bottom: 0px;
+        font-size: 25px;
+    }
+    .navigation-bar ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .current, .navigation-bar ul li:hover
+    {
+        background-color: #ffde59;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .drop-down-menu-1
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    .drop-down-menu-2
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    span{
+        color: #ffcc04;
+    }
+    .about-content h5
+    {
+        margin-bottom: 25px;
+        letter-spacing: 3px;
+        text-transform: capitalize;
+        font-size: 30px;
+        color: rgba(0, 0, 0, 0.776);
+        font-family: Garamond, serif;
+    }
+    .about-content h1
+    {
+        color: black;
+        text-transform: capitalize;
+        font-size: 90px;
+        margin-bottom: 20px;
+        font-family: Garamond, serif;
+        font-weight: lighter;
+    }
+    .about-content p
+    {
+        letter-spacing: 1px;
+        color: black;
+        margin-bottom: 43px;
+        line-height: 29px;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: justify;
+    }
+    button
+    {
+        background: #ffd83b;
+        text-decoration: none;
+        border: 2px solid transparent;
+        color: black;
+        padding: 13px 30px;
+        font-weight: 200;
+        font-size: 25px;
+        border-radius: 35px;
+        letter-spacing: 1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .sales-growth-table
+    {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    .sales-growth-table td, .sales-growth-table th
+    {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 12px 15px;
+    }
+    .sales-growth-table td
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+    }
+    .sales-growth-table th
+    {
+        background-color: #ffdb4a;
+        color: black;
+        font-family: Garamond, serif;
+        font-size: 35px;
+        font-weight: lighter;
+    }
+    .darker-shading
+    {
+        background: #f5f5f5;
+    }
+    .table-title h1
+    {
+        margin-bottom: 21px;
+        text-align: center;
+        letter-spacing: 3px;
+        font-family: Garamond, serif;
+        text-transform: capitalize;
+        font-size: 75px;
+        font-weight: lighter;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+}

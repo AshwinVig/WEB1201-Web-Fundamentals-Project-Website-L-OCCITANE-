@@ -1,0 +1,352 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 200vh;
+}
+.brand-heading
+{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 35px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-bottom-color: #ffcc04;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.first-part
+{
+    font-family: Garamond, serif;
+    font-size: 38px;
+    display: inline;
+    font-weight: normal;
+}
+.second-part
+{
+    font-family: Garamond, serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: normal;
+}
+.subtitle1
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.subtitle2
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline;
+}
+.login
+{
+    width: 320px;
+    height: 420px;
+    transform: translate(-50%, -20%);
+    background: white;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border: 3px solid rgb(239, 237, 237);
+}
+.logo
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px); 
+}
+h1{
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-color: #ffcc04;
+}
+.details
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+.login input
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type = "text"]
+{
+    border: none;
+    border-bottom: 1px solid #f5d864;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.login input[type = "password"]
+{
+    border: none;
+    border-bottom: 1px solid #f5d864;
+    background: transparent;
+    outline: none;
+    height: 40px;
+}
+.login input[type = "submit"]
+{
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: none;
+    height: 40px;
+    background:#ffcc04;
+    color:white;
+    font-size: 18px;
+    border-radius: 30px;
+}
+.login input[type = "submit"]:hover
+{
+    cursor: pointer;
+    background:#fbd53e;
+    color: white;
+}
+.login a
+{
+    text-decoration-color: darkgrey;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.image-box
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 550px;
+    background: cover;
+}
+.image-box img
+{
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 990px)
+{
+    .login
+    {
+        margin-top: 100px;
+        transform: translate(-45%, -20%);
+    }
+    .image-box
+    {
+        margin-top: 600px;
+    }
+}
+@media only screen and (max-width: 870px)
+{
+    .login
+    {
+        transform: translate(-25%, -20%);
+    }
+}
+@media only screen and (max-width: 819px)
+{
+    .login
+    {
+        transform: translate(-20%, -20%);
+    }
+}
+@media only screen and (max-width: 730px)
+{
+    .login
+    {
+        transform: translate(-5%, -20%);
+    }
+}
+@media only screen and (max-width: 670px)
+{
+    .login
+    {
+        transform: translate(5%, -20%);
+    }
+}
+@media only screen and (max-width: 550px)
+{
+    .login
+    {
+        transform: translate(25%, -20%);
+    }
+}
+@media only screen and (max-width: 450px)
+{
+    .login
+    {
+        transform: translate(40%, -20%);
+    }
+}
+@media only screen and (max-width: 440px)
+{
+    .login
+    {
+        transform: translate(40%, -20%);
+    }
+}
+@media only screen and (max-width: 441px)
+{
+    .login
+    {
+        transform: translate(3%, -20%);
+        width: 600px;
+        height: 700px;
+        padding: 100px 100px;
+    }
+    .logo
+    {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        top: -50px;
+        left: calc(40% - 50px); 
+    }
+    h1{
+        font-family: Garamond, serif;
+        margin-top: 60px;
+        padding: 0 0 20px;
+        text-align: center;
+        font-size: 100px;
+        font-weight: normal;
+        border-bottom: 3px;
+        border-bottom-style: solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom-left-radius: 50%;
+        border-bottom-right-radius: 50%;
+        border-bottom-color: #ffcc04;
+        margin-bottom: 50px;
+    }
+    .details
+    {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+    .login input
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .login input[type = "text"]
+    {
+        border: none;
+        border-bottom: 1px solid #f5d864;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    .login input[type = "password"]
+    {
+        border: none;
+        border-bottom: 1px solid #f5d864;
+        background: transparent;
+        outline: none;
+        height: 40px;
+        font-size: 20px;
+    }
+    .login input[type = "submit"]
+    {
+        font-family: Arial, sans-serif;
+        outline: none;
+        border: none;
+        height: 50px;
+        background:#ffcc04;
+        color:white;
+        font-size: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+    .login input[type = "submit"]:hover
+    {
+        cursor: pointer;
+        background:#fbd53e;
+        color: white;
+    }
+    .login a
+    {
+        text-decoration-color: darkgrey;
+        font-size: 20px;
+        line-height: 20px;
+        color: darkgrey;
+    }
+    .image-box
+    {
+        margin-top: 850px;
+    }
+
+}
+@media only screen and (max-width: 370px)
+{
+    .login
+    {
+        transform: translate(5%, -20%);
+    }
+}
+@media only screen and (max-width: 300px)
+{
+    .login
+    {
+        transform: translate(10%, -20%);
+    }
+}
+@media only screen and (max-width: 323px)
+{
+    .login
+    {
+        transform: translate(9%, -20%);
+    }
+}
+@media only screen and (max-width: 250px)
+{
+    .login
+    {
+        transform: translate(15%, -20%);
+    }
+}
+
+
+

@@ -1,0 +1,499 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    min-height: 100vh;
+    min-width: 200vh;
+    outline: none;
+}
+.brand-heading
+{
+    background-color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 10px;
+    border-style: solid;
+    border-bottom-color: #ffcc04;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.first-part
+{
+    font-family: Garamond, serif;
+    font-size: 38px;
+    display: inline;
+    font-weight: normal;
+}
+.second-part
+{
+    font-family: Garamond, serif;
+    font-size: 45px;
+    display: inline;
+    font-weight: normal;
+}
+.subtitle1
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+.subtitle2
+{
+    font-family: Garamond, serif;
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    display: inline;
+}
+.logout
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 25px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: Garamond, sans-serif;
+}
+.logout a
+{
+    text-decoration: none;
+}
+.logout p
+{
+    padding: 12px;
+    color: black;
+    border-radius: 20px;
+    background:#ffde59;
+    font-family: Garamond, sans-serif;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.logout p:hover
+{
+    cursor: pointer;
+    background:#ffe683;
+    color: rgb(22, 22, 22);
+}
+.navigation-bar
+{
+    background: white;
+    text-align: center;
+}
+.navigation-bar ul
+{
+    color: black;
+    display: inline-flex;
+    list-style: none;
+    font-family: Garamond, sans-serif;
+    letter-spacing: 1px;
+}
+.navigation-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.navigation-bar ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+.current, .navigation-bar ul li:hover
+{
+    background-color: #ffde59;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.drop-down-menu-1
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.drop-down-menu-2
+{
+    display: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2
+{
+    margin-top: 15px;
+    margin-left: -15px;
+    position: absolute;
+    display: block;
+    background: #ffe683;
+    border-radius: 15px;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul
+{
+    margin: 10px;
+    display: block;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+{
+    border-bottom: none;
+}
+.navigation-bar ul li:hover .drop-down-menu-2 ul li
+{
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border-radius: 0;
+    border-bottom: 1.5px dashed #ae9b4c;
+    text-align: left;
+}
+.contact-container
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 25px;
+    background: white;
+}
+.contact-container h2
+{
+    margin-bottom: 21px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: Garamond, serif;
+    text-transform: capitalize;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.contact-container .input
+{
+    margin-bottom: 10px;
+}
+.contact-container .input input[type = "text"],
+.contact-container textarea
+{
+    width: 35%;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    outline-color: #f9c905;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    color: black;
+    background-color: rgb(245, 244, 244);
+}
+.contact-container  #errorprompt
+{
+    margin-bottom: 25px;
+    padding: 0px;
+    background: #ffeca1;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-container .btn input[type = "submit"]
+{
+    margin-top: 15px;
+    background: #ffd83b;
+    text-decoration: none;
+    border: 2px solid transparent;
+    color: black;
+    padding: 10px 30px;
+    width: 10%;
+    border-radius: 35px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contact-container .btn input[type = "submit"]:hover
+{
+    background: #ffe478;
+    border: 2px solid #fad84f;
+    cursor: pointer;
+    font-weight: bold;
+}
+.contact-container textarea
+{
+    height: 70px;
+    resize: none;
+}
+.image-box
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+}
+img
+{
+    border-radius: 30px;
+    border: solid 5px #fcde69;
+}
+
+@media only screen and (max-width: 450px)
+{
+    .first-part
+    {
+        font-family: Garamond, serif;
+        font-size: 80px;
+        display: inline;
+        font-weight: normal;
+    }
+    .second-part
+    {
+        font-family: Garamond, serif;
+        font-size: 87px;
+        display: inline;
+        font-weight: normal;
+    }
+    .subtitle1
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+    .subtitle2
+    {
+        font-family: Garamond, serif;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        display: inline;
+    }
+    .logout
+    {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 25px;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-family: Garamond, sans-serif;
+    }
+    .logout a
+    {
+        text-decoration: none;
+    }
+    .logout p
+    {
+        padding: 12px;
+        color: black;
+        border-radius: 20px;
+        background:#ffde59;
+        font-family: Garamond, sans-serif;
+        outline: none;
+        border: none;
+        font-weight: bold;
+    }
+    .logout p:hover
+    {
+        cursor: pointer;
+        background:#ffe683;
+        color: rgb(22, 22, 22);
+    }
+    .navigation-bar
+    {
+        background: white;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .navigation-bar ul
+    {
+        color: black;
+        display: inline-flex;
+        list-style: none;
+        font-family: Garamond, sans-serif;
+        letter-spacing: 1px;
+    }
+    .navigation-bar ul li
+    {
+        width: 120px;
+        margin: 10px;
+        padding: 15px;
+        padding-bottom: 0px;
+        font-size: 25px;
+    }
+    .navigation-bar ul li a
+    {
+        text-decoration: none;
+        color: black;
+    }
+    .current, .navigation-bar ul li:hover
+    {
+        background-color: #ffde59;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .drop-down-menu-1
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-1 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    .drop-down-menu-2
+    {
+        display: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2
+    {
+        margin-top: 15px;
+        margin-left: -15px;
+        position: absolute;
+        display: block;
+        background: #ffe683;
+        border-radius: 15px;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul
+    {
+        margin: 10px;
+        display: block;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li:last-child
+    {
+        border-bottom: none;
+    }
+    .navigation-bar ul li:hover .drop-down-menu-2 ul li
+    {
+        width: 150px;
+        padding: 10px;
+        background: transparent;
+        border-radius: 0;
+        border-bottom: 1.5px dashed #ae9b4c;
+        text-align: left;
+    }
+    .contact-container
+    {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        border-radius: 5px;
+        padding: 25px;
+        background: white;
+    }
+    .contact-container h2
+    {
+        margin-bottom: 21px;
+        text-align: center;
+        letter-spacing: 3px;
+        font-family: Garamond, serif;
+        text-transform: capitalize;
+        font-size: 80px;
+        font-weight: lighter;
+    }
+    .contact-container .input
+    {
+        margin-bottom: 10px;
+    }
+    .contact-container .input input[type = "text"],
+    .contact-container textarea
+    {
+        width: 80%;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        outline-color: #f9c905;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 30px;
+        border: none;
+        color: black;
+        background-color: rgb(245, 244, 244);
+    }
+    .contact-container  #errorprompt
+    {
+        margin-bottom: 25px;
+        padding: 0px;
+        background: #ffeca1;
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .contact-container .btn input[type = "submit"]
+    {
+        margin-top: 15px;
+        background: #ffd83b;
+        text-decoration: none;
+        border: 2px solid transparent;
+        color: black;
+        padding: 10px 30px;
+        width: 20%;
+        font-size: 30px;
+        border-radius: 35px;
+        letter-spacing: 1px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .contact-container .btn input[type = "submit"]:hover
+    {
+        background: #ffe478;
+        border: 2px solid #fad84f;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .contact-container textarea
+    {
+        height: 250px;
+        resize: none;
+    }
+}
